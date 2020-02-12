@@ -15,13 +15,13 @@ namespace MusicAkinatorV2.Models
 
     public class AuddioResponse
     {
-        public string Result { get; set; }
-        //public 
+        public string Status { get; set; } 
+        public AuddioResponseResult Result { get; set; }
     }
 
     public class AuddioResponseResult
     {
-        public string Result { get; set; }
-        //public
+        public string Title { get; set; }
+        public string Artist { get; set; }
     }
 }
