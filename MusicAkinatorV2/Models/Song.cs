@@ -12,16 +12,4 @@ namespace MusicAkinatorV2.Models
         public string Author { get; set; }
         public bool Lirycs { get; set; }
     }
-
-    public class AuddioResponse
-    {
-        public string Status { get; set; } 
-        public AuddioResponseResult Result { get; set; }
-    }
-
-    public class AuddioResponseResult
-    {
-        public string Title { get; set; }
-        public string Artist { get; set; }
-    }
 }

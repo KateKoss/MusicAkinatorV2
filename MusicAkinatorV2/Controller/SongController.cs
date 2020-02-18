@@ -1,9 +1,5 @@
-﻿using System;
-using System.Linq;
-using System.Net.Http;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 using MusicAkinatorV2.Interfaces;
 using MusicAkinatorV2.Models;
 
